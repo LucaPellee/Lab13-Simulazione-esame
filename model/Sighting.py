@@ -5,7 +5,7 @@ from datetime import datetime
 @dataclass
 class Sighting:
     id: int
-    7: datetime
+    datetime: datetime
     city: str
     state: str
     country:str
